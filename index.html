@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stopwatch</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="scoreboard big-block">
+      <div class="plus-min">
+        <button class="PlusMinute smallbtn">+</button>
+        <button class="MinusMinute smallbtn">-</button>
+      </div>
+      <input type="text" name="MinuteScoreboard" value="00">
+      <div class="colon">:</div>
+      <input type="text" name="SecondScoreboard" value="00">
+      <div class="plus-min">
+        <button class="PlusSecond smallbtn">+</button>
+        <button class="MinusSecond smallbtn">-</button>
+      </div>
+    </div>
+    <div class="big-block">
+      <button class="Start mbtn">Start</button>
+      <button class="Stop mbtn">Stop/Clear</button>
+      <button class="Pause mbtn" disabled = "disabled">Pause</button>
+    </div>
+    <div class="big-block">
+      <button class="Set5Mins mbtn">5 minutes</button>
+      <button class="Set10Mins mbtn">10 minutes</button>
+    </div>
+    <h2></h2>
+  </div>
+  <script src="sQuery.js"></script>
+  <script src="scr.js"></script>
+</body> 
+</html>
